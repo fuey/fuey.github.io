@@ -17,7 +17,7 @@ after_success:
   - cd ./public
   - git init
   - git config --global user.name "${U_NAME}" 
-  - git config --global user.email "${U_NAME}"
+  - git config --global user.email "${U_EMAIL}"
   - git add .
   - git commit -m "Updated by travis-ci at $(date)"
   - git push --force "https://${GH_TOKEN}@${GH_REF}" master:${P_BRANCH}
