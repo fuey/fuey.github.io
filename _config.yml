@@ -69,11 +69,17 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 ##deploy:
   ##type:
-deploy:
+#deploy:
    #type:
-   type: git
-   repository: git@github.com:fuey/fuey.github.io.git
-   branch: master
+   #type: git
+   #repository: git@github.com:fuey/fuey.github.io.git
+   #branch: master
+   
+deploy:
+- type: git
+  # 下方的gh_token会被.travis.yml中sed命令替换
+  repo: https://gh_token@github.com/fuey/fuey.github.io.git
+  branch: master
 
 
 search:
