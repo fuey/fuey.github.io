@@ -2,7 +2,7 @@ language: node_js
 node_js: node
 branches:
   only:
-    - raw
+    - ${P_BRANCH}
 before_script:
   - npm install -g hexo
   - npm install -g hexo-cli
