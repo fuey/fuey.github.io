@@ -5,7 +5,7 @@
 # Site
 title: 一个Javaer的手札
 subtitle: a javaer's story
-description: 生命不息，折腾不止...
+description: 心怀敬畏，心存感激，脚踏实地，做好自己...
 author: luyuanxing
 language: zh-Hans
 timezone:
@@ -64,6 +64,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
+scheme: Pisces
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
