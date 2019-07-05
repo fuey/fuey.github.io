@@ -42,7 +42,8 @@ menu:
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
-  commonweal: /404.html
+  #commonweal: /404.html
+  wiki: /wiki || book
 
 
 # Enable/Disable menu icons.
