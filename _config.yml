@@ -10,9 +10,6 @@ author: luyuanxing
 language: zh-Hans
 timezone:
 
-menu:
-  wiki: /wiki || book
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://yoursite.com
@@ -67,7 +64,6 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 theme: next
-scheme: Pisces
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
