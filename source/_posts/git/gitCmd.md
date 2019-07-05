@@ -2,6 +2,7 @@ title: git常用命令
 tags: [git]
 keyword: git,git常用命令
 categories: git
+type: "wiki"
 
 ---
 # git常用命令
